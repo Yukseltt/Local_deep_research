@@ -9,6 +9,12 @@ PDF dokümanlarını vektör veritabanlarına indeksleyen, **tamamen yerel** ça
 
 **Veri dışarı çıkmaz.** Tüm model ve veritabanları makinenizde çalışır.
 
+> **Bu çatalda katkım (Erhan Yüksel Turgut):** sentetik veri üretimi ve embedding fine-tune.
+> 329 akademik dokümandan Ollama/Ministral-3:8b ile SQuAD v2.0 formatında 7.194 soru-cevap çifti
+> üretildi ([`CUSTOM_DATASET/`](CUSTOM_DATASET)). BGE-M3, MultipleNegativesRankingLoss ile fine-tune
+> edilerek 105 bağlamlık doğrulama korpusunda Recall@1 %64'ten %75'e çıktı
+> ([`train_models/BGE_M3_FINE_TUNING.ipynb`](train_models/BGE_M3_FINE_TUNING.ipynb)).
+
 ---
 
 ## Ekran Görüntüleri
@@ -370,5 +376,5 @@ bitirememe projesi/
 | İsim | GitHub |
 |---|---|
 | Uğurhan Daşdemir | [@Ugurhandasdemir](https://github.com/Ugurhandasdemir) |
-| Yüksel Erhan Turgut | [@Yukseltt](https://github.com/Yukseltt) |
+| Erhan Yüksel Turgut | [@Yukseltt](https://github.com/Yukseltt) |
 | Enes Hakan Demir | [@hakanenesdemir](https://github.com/hakanenesdemir) |
